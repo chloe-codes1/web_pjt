@@ -1,2 +1,56 @@
 /* 04_community.css */
 /* 아래에 코드를 작성해 주세요. */
+
+
+.main {
+    width: 720px;
+    margin: 0 auto;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+#main_title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+}
+
+#main_title h1 {
+     margin-bottom: 30px;
+}
+
+#main_title hr {
+    width: 100px;
+    border-top: 3px solid #ffd43b;
+    margin: 0 auto;
+}
+
+
+article{
+    margin: 40px 0;
+    border-bottom: 2px solid #adb5bd;
+    width: 100%;
+}
+
+.titles{
+    display: block;
+}
+
+.left {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.right{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.right span{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.date{
+    color: #868e96;
+}

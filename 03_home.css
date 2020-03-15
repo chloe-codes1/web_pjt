@@ -1,2 +1,83 @@
 /* 03_home.css */
 /* 아래에 코드를 작성해 주세요. */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url('images/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+#header_group{
+    display: block;
+}
+
+.header_contents{
+    color: white;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+#header_btn{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #1c7ed6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+#header_btn:hover{
+    background-color: #1c7fd6c4;
+    opacity:0.9;
+}
+
+
+#body_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+#section_area{
+    text-align: center;
+}
+
+#section_title{
+    font-size: 25pt;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.section_images{
+    display: inline-block;
+    margin: 10px;
+}
+
+.single_images{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.section_contents{
+    display: block;
+}

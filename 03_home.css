@@ -46,6 +46,7 @@
 #header_btn:hover{
     background-color: #1c7fd6c4;
     opacity:0.9;
+    transition: filter 1s case-in-out;
 }
 
 

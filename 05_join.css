@@ -1,0 +1,48 @@
+/* 아래애 자유롭게 꾸며 주세요! */
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #join {
+    border-collapse: collapse;
+    border: 1px solid transparent;
+    border-radius: 30px 70px;
+    background-color: #dee2e6;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    font-size: 14pt;
+  }
+  .label {
+    width: 60px;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .cont {
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .ok_btns {
+    text-align: center;
+  }
+  
+  .btns {
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    background-color: white;
+    font-size: 12pt;
+    cursor: pointer;
+  }
+  
+  .btns:hover {
+    background-color: #ffa8a8;
+  }
+  

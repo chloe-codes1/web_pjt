@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입 폼</title>
+  <link rel="stylesheet" href="05_join.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h2>Create account</h2>
+  <form action="">
+
+    <table border = "1" id="join">
+      <tr>
+          <td class="label"> <label for ="id"> Your name </label> </td>
+          <td class="cont"> 
+          <input type="text" id = "id" name="id" value ="" onfocus="this.value=''" autofocus required autocomplete="username"/> 
+          <input class="btns" type="button" value="Check!" id="id_check" >
+          <br>
+          <span id="msg" class="error"></span>
+          </td>
+      </tr>		
+      <tr>
+          <td class="label"> <label for ="pw">Password </label> </td>
+          <td class="cont"> <input type ="password" id = "pw" name="pw" value ="" required/> </td>
+      </tr>
+      <tr>
+          <td class="label"> <label for ="pw_check">Re-enter password</label> </td>
+          <td class="cont"> <input type ="password" id = "pw_check" name="pw_check" value ="" required/> </td>
+      </tr>			
+      <tr>
+          <td colspan = "2" class="ok_btns">
+              <input class="btns" type = "submit" id="submit" value = "CREATE">			
+              <input class="btns" type = "reset" id="clear" value = "CLEAR">		
+          </td>
+      </tr>		
+  </table>
+  </form>
+  <script src="05_join.js"></script>
+</body>
+</html>
